@@ -1,25 +1,25 @@
 package EjerciciosDeUnidad;
 public class Ejercicio1 {
     public static class Main {
-        public static void main(String[] args) {
-            IO.println("Unidad 1 Programacion Orientada a Objetos!");
+        static void main(String[] args) {
+            IO.println("Ejercicio 1: Programacion Orientada a Objetos");
 
-            Student student1 = new Student();
-            student1.name = "Sebastian David tejedor";
-            student1.code = 7502610039L;
-            student1.semester = "2026-2 (2do semestre)";
-            student1.printStudentInfo();
+            Estudiante estudiante1 = new Estudiante();
+            estudiante1.name = "Sebastian David tejedor";
+            estudiante1.code = 7502610039L;
+            estudiante1.semester = "2026-2 (2do semestre)";
+            estudiante1.MostrarInfo();
     }
 
-    public static class Student {
+    public static class Estudiante {
         String name;
         Long code;
         String semester;
 
-        void printStudentInfo() {
-            IO.println("Name: " + name);
-            IO.println("Semester: " + semester);
-            IO.println("Code: " + code);
+        void MostrarInfo() {
+            IO.println("Nombre: " + name);
+            IO.println("Semestre: " + semester);
+            IO.println("Código: " + code);
          }
         }
     }
