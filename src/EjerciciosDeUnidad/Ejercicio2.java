@@ -1,14 +1,13 @@
 package EjerciciosDeUnidad;
-
 public class Ejercicio2 {
     public static class Main {
-        public static void main(String[] args) {
+        static void main(String[] args) {
             IO.println("Ejercicio 2: Programacion Orientada a Objetos");
 
             Vehiculo vehiculo1 = new Vehiculo();
-            vehiculo1.marca = "Toyota";
-            vehiculo1.Modelo = "Corolla";
-            vehiculo1.VelocidadActual = "120 km/h";
+            vehiculo1.marca = "Lamborghini";
+            vehiculo1.Modelo = "Aventador SVJ";
+            vehiculo1.VelocidadActual = "350 km/h";
             vehiculo1.printVehiculoInfo();
         }
     }
@@ -18,7 +17,7 @@ public class Ejercicio2 {
         String VelocidadActual;
 
         void printVehiculoInfo() {
-            IO.println("Name: " + marca);
+            IO.println("Marca: " + marca);
             IO.println("Modelo: " + Modelo);
             IO.println("Velocidad Actual: " + VelocidadActual);
          }
