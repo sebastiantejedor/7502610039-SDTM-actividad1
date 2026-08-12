@@ -9,18 +9,6 @@ public class Ejercicio1 {
             estudiante1.code = 7502610039L;
             estudiante1.semester = "2026-2 (2do semestre)";
             estudiante1.MostrarInfo();
-    }
-
-    public static class Estudiante {
-        String name;
-        Long code;
-        String semester;
-
-        void MostrarInfo() {
-            IO.println("Nombre: " + name);
-            IO.println("Semestre: " + semester);
-            IO.println("Código: " + code);
-         }
         }
     }
 }
