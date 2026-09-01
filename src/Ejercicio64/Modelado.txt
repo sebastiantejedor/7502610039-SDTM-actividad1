@@ -1,0 +1,24 @@
+Clase Tienda
+
+Atributos
+Nombre
+Direccion
+Tipo
+CantidadProductos
+DineroEnCaja
+
+Métodos
+venderProducto() → registra la venta de un producto.
+agregarProducto() → agrega productos a la tienda.
+eliminarProducto() → elimina productos.
+mostrarInventario() → muestra los productos disponibles.
+mostrarInformacion() → muestra información de la tienda.
+
+Objetos reales que podrían construirse
+Tienda de ropa
+Tienda de tecnología
+Supermercado
+Tienda de videojuegos
+
+Ejemplo:
+tienda1 podría representar una tienda de tecnología.
