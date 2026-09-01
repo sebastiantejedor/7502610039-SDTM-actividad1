@@ -1,0 +1,23 @@
+Clase Biblioteca
+
+Atributos
+Nombre
+Direccion
+CantidadLibros
+Horario
+NumeroUsuarios
+
+Métodos
+prestarLibro() → registra el préstamo de un libro.
+devolverLibro() → registra la devolución.
+agregarLibro() → agrega un libro a la biblioteca.
+mostrarInformacion() → muestra los datos de la biblioteca.
+
+Objetos reales que podrían construirse
+Biblioteca Universitaria
+Biblioteca Escolar
+Biblioteca Pública
+Biblioteca Municipal
+
+Ejemplo:
+biblioteca1 podría representar la biblioteca de una universidad.
