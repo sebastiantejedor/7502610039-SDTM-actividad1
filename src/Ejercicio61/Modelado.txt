@@ -1,0 +1,26 @@
+Clase Docente
+
+Atributos
+La clase Docente podría tener:
+Nombre
+Identificación
+Asignatura
+Correo
+Salario
+
+Métodos
+Podría tener:
+enseñar() → representa la acción de enseñar.
+calificar() → permite registrar o realizar una calificación.
+mostrarInformacion() → muestra los datos del docente.
+cambiarAsignatura() → permite cambiar la asignatura.
+Objetos reales que podrían construirse
+
+A partir de la clase Docente se podrían crear objetos como:
+Docente de Programación
+Docente de Matemáticas
+Docente de Inglés
+Docente de Física
+
+Ejemplo:
+docente1 podría representar a un profesor de Programación.
