@@ -1,0 +1,23 @@
+Clase Hospital
+
+Atributos
+Nombre
+Direccion
+NumeroHabitaciones
+NumeroMedicos
+NumeroPacientes
+
+Métodos
+ingresarPaciente() → registra el ingreso de un paciente.
+darAlta() → registra la salida de un paciente.
+asignarHabitacion() → asigna una habitación.
+mostrarInformacion() → muestra los datos del hospital.
+
+Objetos reales que podrían construirse
+Hospital Universitario
+Hospital Municipal
+Clínica Privada
+Hospital Infantil
+
+Ejemplo:
+hospital1 podría representar un hospital de una ciudad.
