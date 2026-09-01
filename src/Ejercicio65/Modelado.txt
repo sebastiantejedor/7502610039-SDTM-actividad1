@@ -1,0 +1,25 @@
+Clase EquipoDeFutbol
+
+Atributos
+Nombre
+Ciudad
+Entrenador
+CantidadJugadores
+Goles
+PartidosGanados
+
+Métodos
+jugarPartido() → representa la realización de un partido.
+anotarGol() → aumenta la cantidad de goles.
+ganarPartido() → registra una victoria.
+perderPartido() → registra una derrota.
+mostrarInformacion() → muestra los datos del equipo.
+
+Objetos reales que podrían construirse
+Real Madrid
+FC Barcelona
+Atlético Nacional
+Junior FC
+
+Ejemplo:
+equipo1 podría representar a un equipo de fútbol profesional.
